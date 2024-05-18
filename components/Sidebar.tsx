@@ -1,3 +1,4 @@
+'use client'
 import { sidebarLinks } from '@/constants'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
@@ -16,9 +17,12 @@ const Sidebar = () => {
                     <Link
                     href={link.route}
                     key={link.label}
-                    className={cn()}
-                    >
+                    className={cn('flex gap-4 items-center p-4 rounded-lg justify-start', {
+                        'bg-blue-1': isActive,
 
+                    })}
+                    >
+                        {link.label}
                     </Link>
                 )
             })}
