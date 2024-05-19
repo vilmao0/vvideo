@@ -10,7 +10,7 @@ const Home = () => {
           <h1>
             11:30
           </h1>
-          <p></p>
+          <p>2024/05/20</p>
         </div>
       </div>
     </section>
