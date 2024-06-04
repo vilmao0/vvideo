@@ -39,7 +39,7 @@ const MobileNav = () => {
                 alt="VVIDEO logo"
                 className='max-sm:size-10'
                 />
-        <p className='text-[26px] font-extrabold text-white'>VVIDEO</p>
+        <p className='text-[26px] font-extrabold text-white'>VilmaoServices - VEVideo</p>
 
             </Link>
 

@@ -15,7 +15,7 @@ const Navbar = () => {
           alt="VVIDEO logo"
           className='max-sm:size-10'
         />
-        <p className='text-[26px] font-extrabold text-white max-sm:hidden'>VVIDEO</p>
+        <p className='text-[26px] font-extrabold text-emerald-400 max-sm:hidden'>VilmaoServices - VEVideo</p>
 
       </Link>
 

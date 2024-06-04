@@ -6,8 +6,8 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VVIDEO by Vilmaomax",
-  description: "A Vilmaomax app.",
+  title: "VEVIDEO",
+  description: "VEVideo Conferencing app. Powered by VilmaoServices",
 };
 
 export default function RootLayout({
