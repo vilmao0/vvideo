@@ -6,14 +6,15 @@ import { ClerkProvider } from "@clerk/nextjs";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VEVIDEO",
-  description: "VEVideo Conferencing app. Powered by VilmaoServices",
+  title: "Vilmaomax™",
+  description: "Vilmaomax™ official website, page, site. All rights reserved.",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+  
 }>) {
   return (
     <html lang="en">

@@ -2,26 +2,36 @@ export const sidebarLinks = [
     {
         label: 'Home',
         route: '/',
-        imgUrl: '/icons/Home.svg'     
+        imgUrl: '/icons/home-white.png'     
     },
     {
-        label: 'Upcoming',
-        route: '/upcoming',
-        imgUrl: '/icons/upcoming.svg'     
+        label: 'Games',
+        route: '/games',
+        imgUrl: '/icons/game-white.png'     
     },
     {
-        label: 'Previous',
-        route: '/previous',
-        imgUrl: '/icons/previous.svg'     
+        label: 'Apps',
+        route: '/apps',
+        imgUrl: '/icons/apps-white.png'     
     },
     {
-        label: 'Recordings',
-        route: '/recordings',
-        imgUrl: '/icons/Video.svg'     
+        label: 'Archive',
+        route: '/archive',
+        imgUrl: '/icons/archive-white.png'     
     },
     {
-        label: 'MyRoom',
-        route: '/personal-room',
+        label: 'Help',
+        route: '/help',
+        imgUrl: '/icons/help-white.png'     
+    },
+    {
+        label: 'MyApps™',
+        route: '/my-apps',
         imgUrl: '/icons/add-personal.svg'     
+    },
+    {
+        label: 'HelpX',
+        route: '/helpX',
+        imgUrl: '/icons/help-white.png'
     },
 ]
